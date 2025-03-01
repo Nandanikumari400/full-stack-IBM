@@ -1,30 +1,20 @@
-
-
-
-vlet a 10, b="10"
-
-console.log(typeof(a))
- 
-console.log(typeof(b))
-
-b-+b
-
-I
-
-if(a===b) {
-
-console.log("a is equal to b")
-
-}else{
-
-console.log("a is not equal to b")
-}
-myName()
-{
-    
-}
-console.log(a)
-function myname(){
-      var a=10
-      console.log(a)
+let str="SV UNIVERSITY";
+console.log(str.length)
+console.log(str .length -1)
+console.log(str[0])
+console.log(str[str.length-1])
+//string are not change because it is immutable
+let arr=[1,2,3,""",gj","|o|"];
+console.log(arr[arr.length-2])
+console.log(arr[2])
+arr.push("jj")
+//slice and slies
+arr.pop();
+console.log(arr)
+let obj={
+    jay:{className:"Btech",rn:315,subject:["CN","DBMS","DSA","RM"]};
+    arjun:{
+        className:"Btech",rn:316,subject:["CN","DBMS","DSA"]},
+        
+    }
 }
